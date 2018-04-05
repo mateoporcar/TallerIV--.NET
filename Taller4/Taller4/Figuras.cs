@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Taller4
 {
-    class Program
+    abstract class Figuras
     {
-        static void Main(string[] args)
-        {
-        }
+
+
+        public abstract double Area();
+
+        public abstract double Perimetro();
     }
 }
